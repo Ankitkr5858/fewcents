@@ -467,9 +467,6 @@
                                     margin-top: 20px;
                                 }
                                 @media screen and (max-width: 992px) {
-                                    .slider3d {
-                                        margin: 30px 50px;
-                                    }
                                     .slider3d .box3d .item3d img {
                                         min-height: 100%;
                                     }
@@ -480,6 +477,18 @@
                                     .slider3d .box3d .item3d.prevInd, .slider3d .box3d .item3d.nextInd {
                                         width: 70%;
                                         min-width: 70%;
+                                    }
+                                    .slider3d .textTitle h2 {
+                                        font-size: 14px;
+                                    }
+                                    .slider3d .box3d .item3d.prevInd {
+                                        transform: translate3d(-13%,0,-100px);
+                                    }
+                                    .slider3d .box3d .item3d.nextInd {
+                                        transform: translate3d(13%,0,-100px);
+                                    }
+                                    .slider3d .buttons3d svg {
+                                        width: 20px;
                                     }
                                 }
                                </style>
