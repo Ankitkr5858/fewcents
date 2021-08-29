@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)https://wallet.fewcents.co/dashboard -->
+<html lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <link rel="icon" href="https://wallet.fewcents.co/favicon.ico">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta name="theme-color" content="#000000">
+      <meta name="description" content="Web site created using create-react-app">
+      <link rel="apple-touch-icon" sizes="57x57" href="https://wallet.fewcents.co/apple-icon-57x57.png">
+      <link rel="apple-touch-icon" sizes="60x60" href="https://wallet.fewcents.co/apple-icon-60x60.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="https://wallet.fewcents.co/apple-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="76x76" href="https://wallet.fewcents.co/apple-icon-76x76.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="https://wallet.fewcents.co/apple-icon-114x114.png">
+      <link rel="apple-touch-icon" sizes="120x120" href="https://wallet.fewcents.co/apple-icon-120x120.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="https://wallet.fewcents.co/apple-icon-144x144.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="https://wallet.fewcents.co/apple-icon-152x152.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="https://wallet.fewcents.co/apple-icon-180x180.png">
+      <link rel="icon" type="image/png" sizes="192x192" href="https://wallet.fewcents.co/android-icon-192x192.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="https://wallet.fewcents.co/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="96x96" href="https://wallet.fewcents.co/favicon-96x96.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="https://wallet.fewcents.co/favicon-16x16.png">
+      <meta name="msapplication-TileColor" content="#ffffff">
+      <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+      <meta name="theme-color" content="#ffffff">
+      <link rel="manifest" href="https://wallet.fewcents.co/manifest.json">
+      <title>F¢ Wallet</title>
+      <link href="./index_files/3.679831fc.chunk.css" rel="stylesheet">
+      <link href="./index_files/main.583f7dd0.chunk.css" rel="stylesheet">
+      <style id="_goober">
+         @keyframes go487993996 {
+         from {
+         transform: scale(0) rotate(45deg);
+         opacity: 0;
+         }
+         to {
+         transform: scale(1) rotate(45deg);
+         opacity: 1;
+         }
+         }
+         @keyframes go1747222846 {
+         from {
+         transform: scale(0);
+         opacity: 0;
+         }
+         to {
+         transform: scale(1);
+         opacity: 1;
+         }
+         }
+         @keyframes go2652833988 {
+         from {
+         transform: scale(0) rotate(90deg);
+         opacity: 0;
+         }
+         to {
+         transform: scale(1) rotate(90deg);
+         opacity: 1;
+         }
+         }
+         @keyframes go1268368563 {
+         from {
+         transform: rotate(0deg);
+         }
+         to {
+         transform: rotate(360deg);
+         }
+         }
+         @keyframes go3344466522 {
+         0% {
+         height: 0;
+         width: 0;
+         opacity: 0;
+         }
+         40% {
+         height: 0;
+         width: 6px;
+         opacity: 1;
+         }
+         100% {
+         opacity: 1;
+         height: 10px;
+         }
+         }
+         @keyframes go2190974446 {
+         from {
+         transform: scale(0.6);
+         opacity: 0.4;
+         }
+         to {
+         transform: scale(1);
+         opacity: 1;
+         }
+         }
+         .go2294718771 {
+         display: flex;
+         align-items: center;
+         background: #fff;
+         color: #363636;
+         line-height: 1.3;
+         will-change: transform;
+         box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1), 0 3px 3px rgba(0, 0, 0, 0.05);
+         max-width: 350px;
+         margin: 16px;
+         pointer-events: auto;
+         padding: 8px 10px;
+         border-radius: 8px;
+         }
+         .go685806154 {
+         position: relative;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         min-width: 20px;
+         min-height: 20px;
+         }
+         .go1858758034 {
+         width: 12px;
+         height: 12px;
+         box-sizing: border-box;
+         border: 2px solid;
+         border-radius: 100%;
+         border-color: #e0e0e0;
+         border-right-color: #616161;
+         animation: go1268368563 1s linear infinite;
+         }
+         .go1415219401 {
+         display: flex;
+         justify-content: center;
+         margin: 4px 10px;
+         color: inherit;
+         flex: 1;
+         }
+         @keyframes go3612681902 {
+         0% {
+         transform: translate3d(0, -80px, 0) scale(.6);
+         opacity: .5;
+         }
+         100% {
+         transform: translate3d(0, 0, 0) scale(1);
+         opacity: 1;
+         }
+         }
+         @keyframes go2533223554 {
+         0% {
+         transform: translate3d(0, 0, -1px) scale(1);
+         opacity: 1;
+         }
+         100% {
+         transform: translate3d(0, -130px, -1px) scale(.5);
+         opacity: 0;
+         }
+         }
+         .go1579819456 {
+         position: absolute;
+         }
+         .go2673002540 {
+         width: 20px;
+         opacity: 0;
+         height: 20px;
+         border-radius: 10px;
+         background: #61d345;
+         position: relative;
+         transform: rotate(45deg);
+         animation: go487993996 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275)forwards;
+         animation-delay: 100ms;
+         }
+         .go2673002540:after {
+         content: '';
+         box-sizing: border-box;
+         animation: go3344466522 0.2s ease-out forwards;
+         opacity: 0;
+         animation-delay: 200ms;
+         position: absolute;
+         border-right: 2px solid;
+         border-bottom: 2px solid;
+         border-color: #fff;
+         bottom: 6px;
+         left: 6px;
+         height: 10px;
+         width: 6px;
+         }
+         .go2415422094 {
+         width: 20px;
+         opacity: 0;
+         height: 20px;
+         border-radius: 10px;
+         background: #ff4b4b;
+         position: relative;
+         transform: rotate(45deg);
+         animation: go487993996 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275)forwards;
+         animation-delay: 100ms;
+         }
+         .go2415422094:after,
+         .go2415422094:before {
+         content: '';
+         animation: go1747222846 0.15s ease-out forwards;
+         animation-delay: 150ms;
+         position: absolute;
+         border-radius: 3px;
+         opacity: 0;
+         background: #fff;
+         bottom: 9px;
+         left: 4px;
+         height: 2px;
+         width: 12px;
+         }
+         .go2415422094:before {
+         animation: go2652833988 0.15s ease-out forwards;
+         animation-delay: 180ms;
+         transform: rotate(90deg);
+         }
+      </style>
+      <link rel="stylesheet" type="text/css" href="./index_files/10.799596bb.chunk.css">
+      <script charset="utf-8" src="./index_files/10.19e79ce6.chunk.js"></script>
+      <style data-emotion="css"></style>
+      <link rel="stylesheet" type="text/css" href="./index_files/0.86545002.chunk.css">
+      <script charset="utf-8" src="./index_files/0.860b5a0f.chunk.js"></script>
+      <link rel="stylesheet" type="text/css" href="./index_files/5.91560b3d.chunk.css">
+      <script charset="utf-8" src="./index_files/5.aa4c04d7.chunk.js"></script>
+      <link rel="stylesheet" type="text/css" href="./index_files/6.6da7b117.chunk.css">
+      <script charset="utf-8" src="./index_files/6.1146b1c0.chunk.js"></script>
+   </head>
+   <body data-new-gr-c-s-check-loaded="14.1027.0" data-gr-ext-installed="">
+      <noscript>You need to enable JavaScript to run
+         this app.
+      </noscript>
+      <div>
+         <div class="Layout">
+            <div class="LeftNav Layout__LeftNav">
+               <div class="LeftNav__top">
+                  <div class="LeftNavLogo"><a href="https://wallet.fewcents.co/dashboard"><img alt="fewcents-logo"
+                     class="LeftNavLogo__img" src="./index_files/wallet-navbar-logo.1dad0e31.svg"></a></div>
+               </div>
+               <div class="LeftNav__links-container"><a aria-current="page" class="LeftNavLinks active"
+                  href="https://wallet.fewcents.co/dashboard"
+                  style="background-color: rgb(6, 31, 118); border-top-right-radius: 18px; border-bottom-right-radius: 18px;"><img
+                  class="LeftNavLinks__img" alt="Your Dashboard"
+                  src="./index_files/dashboard-nav-icon.ac9fd7c7.svg"><span class="LeftNavLinks__text">Your
+                  Dashboard</span></a><a class="LeftNavLinks" href="https://wallet.fewcents.co/articles"><img
+                     class="LeftNavLinks__img" alt="Browse Content"
+                     src="./index_files/content-nav-icon.7951518d.svg"><span class="LeftNavLinks__text">Browse
+                  Content</span></a><a class="LeftNavLinks"
+                     href="https://wallet.fewcents.co/transactions"><img class="LeftNavLinks__img"
+                     alt="Transactions History" src="./index_files/transaction-nav-icon.22cec7a9.svg"><span
+                     class="LeftNavLinks__text">Transactions History</span></a><a class="LeftNavLinks"
+                     href="https://wallet.fewcents.co/account"><img class="LeftNavLinks__img" alt="Account Settings"
+                     src="./index_files/account-nav-icon.a64b3445.svg"><span class="LeftNavLinks__text">Account
+                  Settings</span></a>
+               </div>
+               <div class="LeftNav__bottom">
+                  <div class="LeftNavUser"><a class="LeftNavUser__link" href="https://wallet.fewcents.co/account"><img
+                     alt="user" class="LeftNavUser__img" src="./index_files/user-1.8973ad91.png"><span
+                     class="LeftNavUser__name">Ankit kumar</span></a></div>
+               </div>
+            </div>
+            <div class="Layout__content">
+               <div class="ContentLayout ContentLayout__dashboard">
+                  <div class="Content">
+                     <div class="DashboardHeader">
+                        <h1 class="DashboardHeader__text">Welcome back <strong class="DashboardHeader__name">Ankit
+                           kumar</strong>!
+                        </h1>
+                        <img class="DashboardHeader__img" alt="boy-illustration"
+                           src="./index_files/boy-illustration.0c7b75ea.svg">
+                     </div>
+                     <div class="DashboardMetrics">
+                        <div class="DashboardMetrics__simple">
+                           <div class="BoxMetric">
+                              <h3 class="BoxMetric__title">Visits</h3>
+                              <span class="BoxMetric__value">0</span>
+                           </div>
+                           <div class="BoxMetric">
+                              <h3 class="BoxMetric__title">Unlocked</h3>
+                              <span class="BoxMetric__value">0</span>
+                           </div>
+                           <div class="BoxMetric">
+                              <h3 class="BoxMetric__title">Visited but not unlocked</h3>
+                              <span
+                                 class="BoxMetric__value">0</span>
+                           </div>
+                        </div>
+                        <div></div>
+                        <div class="DashboardMetrics__advance">
+                           <div class="Pie">
+                              <div class="Pie__header">
+                                 <h3 class="Pie__text">Your Top Publishers</h3>
+                              </div>
+                              <div class="Pie__body">
+                                 <div class="Pie__no-content-container">
+                                    <p class="Pie__no-content-text">No publishers found...</p>
+                                 </div>
+                                 <div class="Pie__label-container"></div>
+                              </div>
+                           </div>
+                           <div class="Bar">
+                              <div class="Bar__header">
+                                 <h3 class="Bar__text">Consumption by Month</h3>
+                              </div>
+                              <div class="Bar__body">
+                                 <div class="Bar__no-content-container">
+                                    <p class="Bar__no-content-text">No content consumed...</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="DashboardRecommendation">
+                        <h3 class="DashboardRecommendation__title">Latest Content</h3>
+                        <div class="DashboardRecommendation__container">
+                            
+                            <!-- slider start here -->
+                            <style>
+                                .slider3d {
+                                    position: relative;
+                                    width: 100%;
+                                }
+                                .slider3d .box3d {
+                                    display: flex;
+                                    perspective: 1000px;
+                                    transform-style: preserve-3d;
+                                    overflow: hidden;
+                                    padding: 15px;
+                                    min-height: 300px;
+                                    position: relative;
+                                    align-items: center;
+                                    justify-content: center;
+                                    transition: transform 0.4s ease;
+                                }
+                                .slider3d .box3d .item3d {
+                                    background: #ffffff;
+                                    width: 60%;
+                                    min-width: 60%;
+                                    border-radius: 5px;
+                                    box-shadow: 0px 2px 10px #00000030;
+                                    padding: 15px;
+                                    position: absolute;
+                                    height: 70%;
+                                    z-index: 1;
+                                    transition: transform 0.4s ease;
+                                    opacity: 0;
+                                }
+                                .slider3d .box3d .item3d a {
+                                    overflow: hidden;
+                                    height: 100%;
+                                    width: 100%;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    position: relative;
+                                }
+                                .slider3d .box3d .item3d img {
+                                    width: 100%;
+                                }
+                                .slider3d .box3d .item3d.active3d {
+                                    width: 65%;
+                                    min-width: 65%;
+                                    height: 80%;
+                                    z-index: 99;
+                                    transition: transform 0.4s ease;
+                                    opacity: 1;
+                                }
+                                .slider3d .box3d .item3d.prevInd {
+                                    transform: translate3d(-10%,0,-100px);
+                                    z-index: 9;
+                                    opacity: 1;
+                                }
+                                .slider3d .box3d .item3d.nextInd {
+                                    transform: translate3d(10%,0,-100px);
+                                    z-index: 9;
+                                    opacity: 1;
+                                }
+                                .slider3d .box3d .item3d.prevInd,
+                                .slider3d .box3d .item3d.nextInd {
+                                    width: 77%;
+                                    min-width: 77%;  
+                                }
+                                .slider3d .buttons3d {
+                                    position: absolute;
+                                    left: 0px;
+                                    top: 50%;
+                                    margin-top: -30px;
+                                    border: none;
+                                    background: none;
+                                    cursor: pointer;
+                                }
+                                .slider3d .buttons3d.next {
+                                    right: 0px;
+                                    left: auto;
+                                }
+                                .slider3d .buttons3d:disabled {
+                                    opacity: 0.2;
+                                }
+                                .slider3d #js-slider-dots {
+                                    text-align: center;
+                                }
+                                .slider3d #js-slider-dots button {
+                                    border: none;
+                                    font-size: 0px;
+                                    height: 15px;
+                                    width: 15px;
+                                    margin: 5px;
+                                    border-radius: 100%;
+                                    cursor: pointer;
+                                    background: #d0d0d0;
+                                }
+                                .slider3d #js-slider-dots .activeDot{
+                                    background-color: #1d68d5;
+                                }
+                                .slider3d .Article__overlay_n {
+                                    background: linear-gradient(180deg ,rgba(40,40,40,0) 23.21%,rgba(87,87,87,.95));
+                                    z-index: 1;
+                                    position: absolute;
+                                    height: 100%;
+                                    width: 100%;
+                                    border-radius: 10px;
+                                }
+                                .slider3d .Article__read-count-N {
+                                    color: #fff;
+                                    display: flex;
+                                    font-size: 14px;
+                                    font-weight: 700;
+                                    font-family: var(--font-family-calibri-bold);
+                                    align-items: center;
+                                    justify-content: flex-end;
+                                    background-color: #ccc;
+                                    position: absolute;
+                                    border-radius: 25px;
+                                    right: 25px;
+                                    top: 25px;
+                                    padding: 5px 10px;
+                                }
+                                .slider3d .textTitle {
+                                    position: absolute;
+                                    color: #fff;
+                                    font-weight: 400;
+                                    z-index: 2;
+                                    left: 0px;
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                    display: -webkit-box;
+                                    -webkit-box-orient: vertical;
+                                    bottom: 0px;
+                                    padding: 15px 40px 30px;
+                                    font-size: 16px;
+                                }
+                                .slider3d .textTitle h2 {
+                                    font-size: 16px;
+                                }
+                                .slider3d .textTitle h4 {
+                                    margin: 10px 0px 0px;
+                                    padding: 0px;
+                                    font-size: 12px;
+                                }
+                                .slider3d .btns {
+                                    border-radius: 10px;
+                                    border: none;
+                                    color: #fff;
+                                    font-weight: 400;
+                                    padding: 8px 0;
+                                    text-align: center;
+                                    transition: all .3s ease-in;
+                                    background-color: #ef7d7c;
+                                    max-width: 200px;
+                                    margin: 0 auto;
+                                    text-decoration: none;
+                                    margin-top: 20px;
+                                }
+                                @media screen and (max-width: 992px) {
+                                    .slider3d {
+                                        margin: 30px 50px;
+                                    }
+                                    .slider3d .box3d .item3d img {
+                                        min-height: 100%;
+                                    }
+                                    .slider3d .box3d .item3d.active3d {
+                                        width: 70%;
+                                        min-width: 70%;
+                                    }
+                                    .slider3d .box3d .item3d.prevInd, .slider3d .box3d .item3d.nextInd {
+                                        width: 70%;
+                                        min-width: 70%;
+                                    }
+                                }
+                               </style>
+
+                                <div class="slider3d">
+                                    <div class="box3d">
+                                        <div class="item3d active3d">
+                                            <a href="#">
+                                                <img class="Article__img_n" alt="article" src="https://wallet.fewcents.co/static/media/article-bg-image.29f2d318.png">
+                                                <div class="Article__overlay_n"></div>
+                                            </a>
+                                            <span class="Article__read-count-N"><img class="Article__icon_n" alt="read-count" src="https://wallet.fewcents.co/static/media/article-people-icon.821a4801.svg"> 4085</span>
+                                            <div class="textTitle">
+                                                <h2 title="Metaverse for marketers: 'Ignoring it now is like ignoring social media 10 years ago'" class="Article__title_n">Metaverse for marketers: 'Ignoring it now is like ignoring social media 10 years ago'</h2>
+                                                <h4 title="Marketing Interactive" class="Article__publisher_N">Marketing Interactive</h4>
+                                                <a href="#" class="btns">Unlock to read</a>
+                                            </div>
+                                        </div>
+                                        <div class="item3d">
+                                        <a href="#">
+                                            <img class="Article__img_n" alt="article" src="https://micdn-13a1c.kxcdn.com/images/hk/content-images/hong_kong.jpg">
+                                            <div class="Article__overlay_n"></div>
+                                        </a>
+                                        <span class="Article__read-count-N"><img class="Article__icon_n" alt="read-count" src="https://wallet.fewcents.co/static/media/article-people-icon.821a4801.svg"> 4085</span>
+                                        <div class="textTitle">
+                                            <h2 title="Metaverse for marketers: 'Ignoring it now is like ignoring social media 10 years ago'" class="Article__title_n">Metaverse for marketers: 'Ignoring it now is like ignoring social media 10 years ago'</h2>
+                                            <h4 title="Marketing Interactive" class="Article__publisher_N">Marketing Interactive</h4>
+                                            <a href="#" class="btns">Unlock to read</a>
+                                        </div>
+                                        </div>
+                                        <div class="item3d">
+                                        <a href="#">
+                                            <img class="Article__img_n" alt="article" src="https://micdn-13a1c.kxcdn.com/images/sg/content-images/puma_maya.jpg">
+                                            <div class="Article__overlay_n"></div>
+                                        </a>
+                                        <span class="Article__read-count-N"><img class="Article__icon_n" alt="read-count" src="https://wallet.fewcents.co/static/media/article-people-icon.821a4801.svg"> 4085</span>
+                                        <div class="textTitle">
+                                            <h2 title="Metaverse for marketers: 'Ignoring it now is like ignoring social media 10 years ago'" class="Article__title_n">Metaverse for marketers: 'Ignoring it now is like ignoring social media 10 years ago'</h2>
+                                            <h4 title="Marketing Interactive" class="Article__publisher_N">Marketing Interactive</h4>
+                                            <a href="#" class="btns">Unlock to read</a>
+                                        </div>
+                                        </div>
+                                        <div class="item3d">
+                                        <a href="#">
+                                            <img class="Article__img_n" alt="article" src="https://micdn-13a1c.kxcdn.com/images/sg/content-images/adidas-forum.jpg">
+                                            <div class="Article__overlay_n"></div>
+                                        </a>
+                                        <span class="Article__read-count-N"><img class="Article__icon_n" alt="read-count" src="https://wallet.fewcents.co/static/media/article-people-icon.821a4801.svg"> 4085</span>
+                                        <div class="textTitle">
+                                            <h2 title="Metaverse for marketers: 'Ignoring it now is like ignoring social media 10 years ago'" class="Article__title_n">Metaverse for marketers: 'Ignoring it now is like ignoring social media 10 years ago'</h2>
+                                            <h4 title="Marketing Interactive" class="Article__publisher_N">Marketing Interactive</h4>
+                                            <a href="#" class="btns">Unlock to read</a>
+                                        </div>
+                                        </div>
+                                        <div class="item3d">
+                                        <a href="#">
+                                            <img class="Article__img_n" alt="article" src="https://micdn-13a1c.kxcdn.com/images/sg/content-images/123rf_pencil_creative.jpg">
+                                            <div class="Article__overlay_n"></div>
+                                        </a>
+                                        <span class="Article__read-count-N"><img class="Article__icon_n" alt="read-count" src="https://wallet.fewcents.co/static/media/article-people-icon.821a4801.svg"> 4085</span>
+                                        <div class="textTitle">
+                                            <h2 title="Metaverse for marketers: 'Ignoring it now is like ignoring social media 10 years ago'" class="Article__title_n">Metaverse for marketers: 'Ignoring it now is like ignoring social media 10 years ago'</h2>
+                                            <h4 title="Marketing Interactive" class="Article__publisher_N">Marketing Interactive</h4>
+                                            <a href="#" class="btns">Unlock to read</a>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <button onclick="changeSlider('prev')" id="prevBtn" class="buttons3d">
+                                        <svg width="25" viewBox="0 0 29 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0.603929 27.9544L25.118 52.4007C25.9212 53.2011 27.2215 53.1998 28.0234 52.3965C28.8246 51.5933 28.8225 50.2923 28.0192 49.4912L4.9643 26.4999L28.02 3.50875C28.8232 2.70755 28.8253 1.40729 28.0242 0.604012C27.6222 0.201338 27.0956 -1.31058e-06 26.5691 -1.31058e-06C26.0438 -1.31058e-06 25.5193 0.199992 25.1181 0.599871L0.603929 25.0455C0.217093 25.4304 1.9665e-05 25.9542 1.9665e-05 26.4999C1.9665e-05 27.0456 0.217714 27.5688 0.603929 27.9544Z" fill="#1d68d5"/>
+                                        </svg>                
+                                    </button>
+                                    <button onclick="changeSlider('next')" id="nxtBtn" class="buttons3d next">
+                                        <svg width="25" viewBox="0 0 29 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M28.0198 25.0456L3.50573 0.599342C2.70255 -0.201141 1.40219 -0.199796 0.600365 0.603483C-0.200843 1.40666 -0.198773 2.70774 0.604506 3.50885L23.6594 26.5001L0.603677 49.4912C-0.199497 50.2925 -0.201568 51.5927 0.599537 52.396C1.00149 52.7987 1.52807 53 2.05465 53C2.57989 53 3.1044 52.8 3.50562 52.4001L28.0198 27.9545C28.4066 27.5696 28.6237 27.0458 28.6237 26.5001C28.6237 25.9544 28.406 25.4312 28.0198 25.0456Z" fill="#1d68d5"/>
+                                        </svg>             
+                                    </button>
+                                    <div id="js-slider-dots"></div>
+                                </div>
+                                <script>
+                                    let activeSlide = document.querySelector('.active3d');
+                                    let startindex = Array.from(document.querySelectorAll('.item3d')).indexOf(activeSlide);
+                                    let slideStart = startindex+1;
+                                    intial();
+                                    function intial(){
+                                        let activeSlide = document.querySelector('.active3d');
+                                        const index = Array.from(document.querySelectorAll('.item3d')).indexOf(activeSlide);
+                                        
+                                        let count = document.querySelectorAll('.item3d').length;
+                                        if(index > 0 ){
+                                            activeSlide.previousElementSibling.className = 'item3d prevInd';
+                                        }
+                                        if( index  < count && index != (count-1)){
+                                            activeSlide.nextElementSibling.className = 'item3d nextInd'; 
+                                        } 
+                                        if(index == 0){
+                                            document.getElementById('prevBtn').disabled = true;
+                                        }else{
+                                            document.getElementById('prevBtn').disabled = false;
+                                        }
+                                        if(index == (count-1)){
+                                            document.getElementById('nxtBtn').disabled = true;
+                                        }else{
+                                            document.getElementById('nxtBtn').disabled = false;
+                                        }
+                                    }
+                                    function changeSlider(action){
+                                        [].forEach.call(document.querySelectorAll('.js-dot'), function (el) {
+                                            el.classList.remove('activeDot');
+                                        });
+                                        let activeSlide = document.querySelector('.active3d');
+                                        const index = Array.from(document.querySelectorAll('.item3d')).indexOf(activeSlide);
+                                        
+                                        let count = document.querySelectorAll('.item3d').length;
+                                        
+                                        activeSlide.classList.remove('active3d')
+                                        if(action == 'next' || action =='prev'){
+                                            if(action == 'next'){
+                                                if( index > 0 ){
+                                                    activeSlide.previousElementSibling.className = 'item3d'; 
+                                                } 
+                                                activeSlide.nextElementSibling.className = 'item3d active3d'; 
+                                            }else if(action == 'prev'){ 
+                                                if( index  < count && index != (count-1)){
+                                                    activeSlide.nextElementSibling.className = 'item3d'; 
+                                                } 
+                                                activeSlide.previousElementSibling.className = 'item3d active3d';
+                                            }
+                                            let activeSlide2 = document.querySelector('.active3d');
+                                            let index2 = Array.from(document.querySelectorAll('.item3d')).indexOf(activeSlide2);
+                                            let elems2 = document.querySelectorAll('.js-dot');
+                                            elems2[index2].classList.add('activeDot');
+                                            slideStart = index2+1;
+                                        }else{
+                                            slideStart = action;
+                                            if( index > 0 ){
+                                                activeSlide.previousElementSibling.className = 'item3d'; 
+                                            }
+                                            if( index  < count && index != (count-1)){
+                                                activeSlide.nextElementSibling.className = 'item3d'; 
+                                            } 
+                                            action = action-1;
+                                            let elems = document.querySelectorAll('.item3d');
+                                            elems[action].classList.add('active3d');
+                                            let activeSlide2 = document.querySelector('.active3d');
+                                            let index2 = Array.from(document.querySelectorAll('.item3d')).indexOf(activeSlide2);
+                                            let elems2 = document.querySelectorAll('.js-dot');
+                                            elems2[index2].classList.add('activeDot');
+                                        }
+                                        intial();
+                                    }
+                                    function generateDots() {
+                                        var i;
+                                        var x = document.getElementsByClassName("item3d");
+                                        for (i = 0; i < x.length; i++) {
+                                            var dotNumber = i + 1;
+                                            let activeSlide = document.querySelector('.active3d');
+                                            const index = Array.from(document.querySelectorAll('.item3d')).indexOf(activeSlide);
+                                            var dot = document.createElement('span');
+                                            if( dotNumber == (index+1)){
+                                            dot.innerHTML ='<button class="js-dot activeDot" onclick="changeSlider(' + dotNumber + ')">' + dotNumber + '</button>';
+                                            }else{
+                                            dot.innerHTML ='<button class="js-dot" onclick="changeSlider(' + dotNumber + ')">' + dotNumber + '</button>';
+                                            }
+                                            document.getElementById('js-slider-dots').appendChild(dot);
+                                        }
+                                    }
+                                    generateDots();
+
+                                    
+                                    const slideDelay = 2000;
+                                    let count = document.querySelectorAll('.item3d').length;
+                                    window.setInterval(()=>{
+                                        if(slideStart == count+1){
+                                            slideStart = 1;
+                                        }
+                                        console.log(slideStart)
+                                        changeSlider(slideStart)
+                                        slideStart++;
+                                        
+                                    }, slideDelay);
+                                </script>
+                            <!-- slider end here -->
+                            
+                        </div>
+                     </div>
+                  </div>
+                  <div class="Aside">
+                     <div class="TopUp">
+                        <div class="TopUp__header">
+                           <h3 class="TopUp__heading">Top Up Here</h3>
+                        </div>
+                        <div class="CardSection">
+                           <div class="CardSection__logo-container">
+                              <h5 class="CardSection__text">Current Balance</h5>
+                              <img class="CardSection__logo"
+                                 alt="fewcents-card-logo" src="./index_files/CardLogo-test.903f597b.svg">
+                           </div>
+                           <h3 class="CardSection__current-balance">INR 0.00</h3>
+                           <div>
+                              <h6 class="CardSection__username">Ankit kumar</h6>
+                              <h6 class="CardSection__email">ankitkr5858@gmail.com</h6>
+                           </div>
+                        </div>
+                        <div class="AmountSection">
+                           <div class="AmountSection__header">
+                              <h5 class="AmountSection__amount-text">Top Up Amount (INR)</h5>
+                              <div class="AmountSection__info-icon-container"><span
+                                 class="AmountSection__tooltip-text">Min. Topup Amount: 50</span><i>i</i>
+                              </div>
+                           </div>
+                           <div class="AmountSection__body">
+                              <div class="AmountSection__icon-container"><i
+                                 class="material-icons AmountSection__icon-color"> < </i></div>
+                              <span
+                                 class="AmountSection__price">50</span>
+                              <div class="AmountSection__icon-container"><i
+                                 class="material-icons AmountSection__icon-color"> > </i></div>
+                           </div>
+                           <div class="AmountSection__footer">
+                              <div class="BackgroundBox"><span class="BackgroundBox__value">50</span></div>
+                              <div class="BackgroundBox"><span class="BackgroundBox__value">100</span></div>
+                              <div class="BackgroundBox"><span class="BackgroundBox__value">150</span></div>
+                           </div>
+                        </div>
+                        <div class="PaymentSection">
+                           <h5 class="PaymentSection__header">Payment methods</h5>
+                           <div class="PaymentSection__body">
+                              <div class="PayMethodBox" title="Paytm"><img
+                                 class="PayMethodBox__icon PayMethodBox__icon--not-default"
+                                 alt="pay-method-icon" src="./index_files/paytm.jpeg"></div>
+                              <div class="PayMethodBox" title="UPI"><img
+                                 class="PayMethodBox__icon PayMethodBox__icon--not-default"
+                                 alt="pay-method-icon" src="./index_files/qu6tTGvg_400x400.jpg"></div>
+                              <div class="PayMethodBox" title="PhonePe"><img
+                                 class="PayMethodBox__icon PayMethodBox__icon--not-default"
+                                 alt="pay-method-icon"
+                                 src="./index_files/03724df664ebbdf03e377a823eace2c6.jpg"></div>
+                              <div class="PayMethodBox" title="">
+                                 <img class="PayMethodBox__icon"
+                                    alt="pay-method-icon" src="./index_files/bank-pay-icon.efab9010.svg">
+                                 <h6 class="PayMethodBox__name">More Banks</h6>
+                              </div>
+                              <div class="PayMethodBox" title="">
+                                 <img class="PayMethodBox__icon"
+                                    alt="pay-method-icon" src="./index_files/credit-card-icon.27241739.svg">
+                                 <h6 class="PayMethodBox__name">More Cards</h6>
+                              </div>
+                              <div class="PayMethodBox" title="">
+                                 <img class="PayMethodBox__icon"
+                                    alt="pay-method-icon" src="./index_files/wallet-icon.2c52461a.svg">
+                                 <h6 class="PayMethodBox__name">More Wallets</h6>
+                              </div>
+                           </div>
+                        </div>
+                        <a href="https://fewcents.co/terms.html" target="_blank">
+                           <h6 class="TopUp__footer">Terms and Conditions</h6>
+                        </a>
+                        <div style="position: fixed; z-index: 9999;"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script src="./index_files/3.869afb2e.chunk.js"></script>
+      <script src="./index_files/main.c0d70da5.chunk.js"></script>
+   </body>
+</html>
